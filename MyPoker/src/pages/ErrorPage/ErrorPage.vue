@@ -1,13 +1,16 @@
 <template>
   <div>
-    <h1>Добро пожаловать!</h1>
+    <h2>404</h2>
+    <p>Извините, страница с данным URL-адресом недоступна</p>
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   name: 'ErrorPage'
-}
+})
 </script>
 
 <style scoped></style>

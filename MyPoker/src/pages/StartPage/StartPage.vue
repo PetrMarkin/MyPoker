@@ -1,17 +1,14 @@
 <template>
   <div>
-    <HeaderComponent></HeaderComponent>
     <h1>Добро пожаловать!</h1>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HeaderComponent from '@components/HeaderComponent.vue'
 
 export default defineComponent({
-  name: 'MainPage',
-  components: { HeaderComponent }
+  name: 'StartPage'
 })
 </script>
 
